@@ -40,12 +40,6 @@ func saveTasksOnExit() {
 }
 
 func init() {
-	// Add subcommands
-	rootCmd.AddCommand(addCmd)
-	rootCmd.AddCommand(listCmd)
-	rootCmd.AddCommand(completeCmd)
-	rootCmd.AddCommand(removeCmd)
-
 	// Save tasks to file when the program exits
 	rootCmd.PersistentPreRun = func(cmd *cobra.Command, args []string) {
 		// Initialize task manager
