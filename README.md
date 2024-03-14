@@ -105,7 +105,6 @@ This file imports the `cmd/task` package and starts the CLI:
 5. Remove a task with `./task-manager remove 1`.
 6. Tasks are saved to `data/tasks.json` and will persist between program runs.
 
-This project provides a basic understanding of building a command-line application in Go, managing tasks, and saving data to a JSON file. You can expand it further by adding features like input validation, error handling, and more advanced task management functionalities.
 
 ``` Usage CMD
 $ ./task-manager -h
