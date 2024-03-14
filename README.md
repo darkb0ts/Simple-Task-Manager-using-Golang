@@ -106,3 +106,25 @@ This file imports the `cmd/task` package and starts the CLI:
 6. Tasks are saved to `data/tasks.json` and will persist between program runs.
 
 This project provides a basic understanding of building a command-line application in Go, managing tasks, and saving data to a JSON file. You can expand it further by adding features like input validation, error handling, and more advanced task management functionalities.
+
+``` Usage CMD
+$ ./task-manager -h
+Simple Task Manager CLI
+
+Usage:
+  task [command]
+
+Available Commands:
+  add         Add a new task
+  complete    Mark a task as completed
+  completion  Generate the autocompletion script for the specified shell
+  help        Help about any command
+  list        List all tasks
+  remove      Remove a task
+
+Flags:
+  -h, --help   help for task
+
+Use "task [command] --help" for more information about a command.
+
+```
