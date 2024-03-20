@@ -35,10 +35,4 @@
     "DueDate": "2024-03-14T00:00:00Z",
     "Completed": false
   },
-  {
-    "ID": 7,
-    "Description": "Do the dishes",
-    "DueDate": "2024-03-14T00:00:00Z",
-    "Completed": false
-  }
 ]
